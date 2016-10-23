@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fundo"
+    android:columnCount="1"
+    android:gravity="center_vertical|center_horizontal"
+    android:rowCount="2"
+    tools:context="com.fitness.kdezen.fitnesszen.PrincipalActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:columnCount="2"
+        android:rowCount="2" >
+
+        <LinearLayout
+            android:id="@+id/layoutTreinamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/imageTreinamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/treinamento" />
+
+            <TextView
+                android:id="@+id/textTreinamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treinamento"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#87F007"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutficha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/imageficha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fichatreinamento" />
+
+            <TextView
+                android:id="@+id/Textficha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ficha de Treinos"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#87F007"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutRepertorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:id="@+id/imageRepertorio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/repertorio" />
+
+            <TextView
+                android:id="@+id/textRepertorio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Repertorio"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#87F007"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutExercicios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/imageExercicios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exercicios" />
+
+            <TextView
+                android:id="@+id/TextExercicios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exercicios"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#87F007"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+    </GridLayout>
+
+
+</RelativeLayout>
+

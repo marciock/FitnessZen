@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_tras" android:title='"tras"' 
+        android:menuCategory="alternative" android:orderInCategory="100" 
+        android:icon="@drawable/media_seek_backward" android:visible="true" 
+        android:enabled="true" 
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_tocar"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title='"tocar"'
+         android:visible="true" 
+         android:enabled="true" 
+         android:menuCategory="alternative" 
+         
+         android:icon="@drawable/media_playback_start"/>
+    <item
+        android:id="@+id/menu_pause"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title='"pausar"'
+         android:visible="true" 
+         android:enabled="true" 
+         android:menuCategory="alternative" 
+         
+         android:icon="@drawable/media_playback_pause"/>
+    <item
+        android:id="@+id/menu_frente"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title='"frente"'
+         android:visible="true" 
+         android:enabled="true" 
+         android:menuCategory="alternative" 
+         
+         android:icon="@drawable/media_seek_forward"/>
+    
+
+</menu>

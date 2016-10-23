@@ -1,0 +1,233 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fundo"
+    android:columnCount="1"
+    android:gravity="center"
+    android:rowCount="2"
+
+    tools:context="com.fitness.kdezen.fitnesszen.GrupoMuscularActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollGrupoMuscular"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:columnCount="2"
+                android:rowCount="2" >
+
+                <LinearLayout
+                    android:id="@+id/layoutPeitorais"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imagePeitorais"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/peitorais" />
+
+                    <TextView
+                        android:id="@+id/textPeitorais"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Peitorais"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutDorsais"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imageDorsais"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/dorsais" />
+
+                    <TextView
+                        android:id="@+id/textoDorsais"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dorsais"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutBiceps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imageBiceps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/biceps" />
+
+                    <TextView
+                        android:id="@+id/textoBiceps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biceps"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layoutTriceps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imageTriceps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/triceps" />
+
+                    <TextView
+                        android:id="@+id/textoTriceps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Triceps"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutDeltoides"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imageDeltoides"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ombros" />
+
+                    <TextView
+                        android:id="@+id/textDeltoides"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deltoides"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutAbdomen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageAbdomen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/abdomen" />
+
+                    <TextView
+                        android:id="@+id/textAbdomen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abdomen"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layoutAnteriores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageAnteriores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/anteriores" />
+
+                    <TextView
+                        android:id="@+id/textAnteriores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M. I. Anteriores"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layoutPosteriores"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imagePosteriores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/posteriores" />
+
+                    <TextView
+                        android:id="@+id/textPosteriores"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="M. I. Posteriores"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+

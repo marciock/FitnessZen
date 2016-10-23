@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="0.7"
+    android:background="@drawable/fundo"
+    android:gravity="center"
+    tools:context="com.fitness.kdezen.fitnesszen.TreinamentoActivity">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/FundoMEdio"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="0.7"
+        android:background="#FFFFFF"
+        android:gravity="left" >
+
+        <ScrollView
+            android:id="@+id/scrollTriceps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="always" >
+
+            <TableLayout
+                android:id="@+id/tabExercicios"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TableRow
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#585858"
+                    android:gravity="center" >
+
+                    <TextView
+                        android:id="@+id/colOrdem"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Ordem"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007" />
+
+                    <TextView
+                        android:id="@+id/colExercicios"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Exercicios"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007" />
+
+                    <TextView
+                        android:id="@+id/colSeries"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="Series X Rep."
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007" />
+
+                    <TextView
+                        android:id="@+id/colCarga"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/tableLayout1"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Carga"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#87F007" />
+
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+

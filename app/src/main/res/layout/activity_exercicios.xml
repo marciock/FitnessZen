@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context="com.fitness.kdezen.fitnesszen.ExerciciosActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/barraNome"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#87F007"
+            android:gravity="left" >
+
+            <LinearLayout
+                android:id="@+id/ladddelExercices"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/laddExercices"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/imageaddExercicios"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/addexercicios" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutdelExercicios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imagedelExercicios"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/delsound" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutListExercices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/listExercices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

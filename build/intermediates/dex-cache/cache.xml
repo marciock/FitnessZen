@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_437bf830deb7fbff58e3e5f8f869d55ea199bfe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_dc86719a705d2d3e2f699e467c0c64f548ccbb4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_74bc8a03468908457b03c09731e94fe24c167c72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1c80ac5cb6a22fca11187c660d16ed859cbc49ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_6663df23db29bf8a29a63009a9c940904aa0d755.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_5c835ee19f5c53e8fd3025fb33ea587428f6f8a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f3cd956c62be8e7618f1a6265427c45b07be8dd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_d50cde5b29616c59e5aab25dcb1ac4cb58f88446.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_e435175a3e6ceb8e72a37c77f6e9f9fb6a9563f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a1767277a47cb59b24bfe72d245d163050fa8263">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/instant-run_d35fb5d8c7872888d56daad7c0877cefb84e72c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_ec5ee336f7c063e2421864932e33d43dad0cd56b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_f0493e699604ae6007def73b9649d4931163ba89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_8e373ea5a47a4e1426ef8aaf00b2a5c375a68fbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_ed04863ba734570d0051cf2197bfcf3e7b1be0de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_6d954bb298e5a0ef0fb0c6ace02266304e70c633.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_dc0b17bdc9d81e631a0e8d8a2f3d7804983ce95c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_5eb35cdecf60f02ced30fb542764e03bc1d994f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="65ee59b8d1e9ce704fa382c15c2a76284ac2942b">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_2b3f19fe8332208265647014d754bb853b006aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_48e6184b0fbcc897bcd4fb81742d99769f0666ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kdezen/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/kdezen/Documentos/AndroidStudioProjects/FitnessZen/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_12e3d5ac4c5ecd02c3cebd33092bfb8b19d5320d.jar" />
+    </item>
+
+</items>

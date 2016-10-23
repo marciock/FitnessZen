@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/menu_cancelar" android:title='"cancelar"' android:menuCategory="alternative" android:orderInCategory="100" android:icon="@drawable/cancelar" android:visible="true" android:enabled="true" android:showAsAction="always"></item><item
+        android:id="@+id/menu_salvar"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title='"Salvar"' android:visible="true" android:enabled="true" android:menuCategory="alternative" android:icon="@drawable/salvar"/>
+
+</menu>
